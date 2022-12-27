@@ -1,7 +1,11 @@
 <script setup>
-    import NavbarCompVue from '../components/NavbarComp.vue';
+    import NavbarComp from '../components/NavbarComp.vue';
+    import HomeComp from '../components/HomeComp.vue';
+    import ServicesComp from '../components/ServicesComp.vue';
 </script>
 
 <template>
-    <NavbarCompVue />
+    <NavbarComp />
+    <HomeComp />
+    <ServicesComp />
 </template>
