@@ -10,12 +10,12 @@ export default {
             <div class="col-12 col-lg-6">
                 <h1 class="fw-bold text-center text-lg-start"> Hello ! C'est Jean-Jérôme, je suis Développeur Web freelance.</h1>
                 <h2 class="fw-light text-center text-lg-start">Créons ensemble un projet à l'image de votre entreprise.</h2>
-                <div class="d-flex justify-content-center">
+                <a href="#services" class="d-flex justify-content-center">
                     <button class="btn btn-primary btn-lg text-light col-8 col-lg-4 shadow mt-5" type="button">En savoir plus</button>
-                </div>
+                </a>
             </div>
             <div class="col-12 col-lg-4">
-                <img class="img-fluid" src="./icons/profil.png" alt="Photo de Jean-Jérome Jornat">
+                <img class="img-fluid" src="./icons/profil.png" alt="Photo de Jean-Jérome Jornat Développeur Web Freelance">
             </div>
         </div>
     </div>

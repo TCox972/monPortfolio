@@ -37,7 +37,7 @@ export default {
             >
           </li>
           <li class="nav-item mx-4">
-            <a class="nav-link link-success fw-bold text-primary" href="#">SERVICES</a>
+            <a class="nav-link link-success fw-bold text-primary" href="#services">SERVICES</a>
           </li>
           <li class="nav-item mx-4">
             <a class="nav-link link-success fw-bold text-primary" href="#">TARIFS</a>
