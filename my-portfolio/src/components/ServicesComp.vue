@@ -34,7 +34,7 @@ export default {
     <div class="container">
       <div class="row py-5">
         <div class="title col-12 text-center">
-          <h2 class="text-primary fs-1 fw-bold">MES SERVICES</h2>
+          <h2 class="text-light fs-1 fw-bold">MES SERVICES</h2>
         </div>
       </div>
       <div class="row py-3 g-5">
@@ -50,7 +50,7 @@ export default {
               </h3>
               <img :src="service.icon" class="card_image my-0" :alt="service.txtAlt" />
               <p class="card-text mb-4 text-light">{{ service.desc }}</p>
-              <a href="#" class="text-light my-4 btn btn-primary">{{
+              <a href="#" class="text-light my-4 btn btn-primary shadow">{{
                 service.btnText
               }}</a>
             </div>
