@@ -40,10 +40,7 @@ export default {
             <a class="nav-link link-success fw-bold text-primary" href="#services">SERVICES</a>
           </li>
           <li class="nav-item mx-4">
-            <a class="nav-link link-success fw-bold text-primary" href="#">TARIFS</a>
-          </li>
-          <li class="nav-item mx-4">
-            <a class="nav-link link-success fw-bold text-primary">CONTACT</a>
+            <a class="nav-link link-success fw-bold text-primary" href="#contact">CONTACT</a>
           </li>
         </ul>
       </div>
