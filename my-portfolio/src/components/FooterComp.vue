@@ -12,9 +12,9 @@ export default {
           <a href="https://www.linkedin.com/in/jean-jérôme-jornat-57215658/" target="_blank">
             <i class="bi-linkedin fs-3 p-4 text-primary"></i>
           </a>
-          <a href="https://www.instagram.com/iam_jeanjrm/" target="_blank">
+          <!-- <a href="https://www.instagram.com/iam_jeanjrm/" target="_blank">
             <i class="bi-instagram fs-3 p-4 text-primary"></i>
-          </a>
+          </a> -->
         </div>
       </div>
       <div class="row p-2">
@@ -90,7 +90,7 @@ export default {
                   class="btn btn-secondary"
                   data-bs-dismiss="modal"
                 >
-                  Close
+                  Fermer
                 </button>
               </div>
             </div>
@@ -225,7 +225,7 @@ export default {
                   class="btn btn-secondary"
                   data-bs-dismiss="modal"
                 >
-                  Close
+                  Fermer
                 </button>
               </div>
             </div>

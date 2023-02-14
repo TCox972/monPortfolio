@@ -15,7 +15,7 @@ export default {
     "
   >
     <div class="container">
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="#home">
         <img src="./icons/logo.png" alt="Logo" width="56" height="56" />
       </a>
       <button
@@ -32,7 +32,7 @@ export default {
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item mx-4">
-            <a class="nav-link link-success fw-bold text-primary" aria-current="page" href="#"
+            <a class="nav-link link-success fw-bold text-primary" aria-current="page" href="#home"
               >ACCUEIL</a
             >
           </li>
