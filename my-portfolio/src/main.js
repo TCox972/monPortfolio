@@ -6,15 +6,14 @@ import bootstrap from 'bootstrap/dist/js/bootstrap.bundle';
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 
+import store from './store'
 import VueSweetalert2 from 'vue-sweetalert2';
 import 'sweetalert2/dist/sweetalert2.min.css';
 
-
 import "./assets/scss/custom.css";
-import "./assets/main.css"
 
 
-const app = createApp(App);
+const app = createApp(App).use(store);
 
 app.use(router);
 app.use(bootstrap);

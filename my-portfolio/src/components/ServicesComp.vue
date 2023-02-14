@@ -1,31 +1,11 @@
 <script>
+import { mapGetters } from 'vuex';
+
 export default {
   name: "ServicesComp",
-  data: () => ({
-    services: [
-      {
-        name: "Site Vitrine",
-        icon: "/src/components/icons/vitrine.png",
-        txtAlt: "image site vitrine",
-        desc: "Le site vitirne est un excellent moyen de mettre en lumière vos produits ou votre service.",
-        btnText: "Je mets en avant mon produit",
-      },
-      {
-        name: "Site E-Commerce",
-        icon: "/src/components/icons/ecom.png",
-        txtAlt: "image e-commerce",
-        desc: "Les boutiques en ligne sont devenus un moyen efficace d'augmenter sont chiffre d'affaire et convertir de nouveaux clients.",
-        btnText: "Je crée mon business en ligne",
-      },
-      {
-        name: "Webmastering",
-        icon: "/src/components/icons/webmast.png",
-        txtAlt: "image webmaster",
-        desc: "La vie d'un site web passe aussi par des mises à jour régulières de sa structure et de ses fonctionnalités.",
-        btnText: "Je garde un site moderne",
-      },
-    ],
-  }),
+  computed: {
+    ...mapGetters(['getServices'])
+  }
 };
 </script>
 
@@ -39,7 +19,7 @@ export default {
       </div>
       <div class="row py-3 g-5">
         <div
-          v-for="service in services"
+          v-for="service in getServices"
           :key="service.name"
           class="col-12 col-xl-4 d-flex justify-content-evenly"
         >
@@ -53,7 +33,7 @@ export default {
                 {{ service.name }}
               </h3>
               <img
-                :src="service.icon"
+                :src="service.image"
                 class="card_image my-0"
                 :alt="service.txtAlt"
               />
