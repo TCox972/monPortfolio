@@ -5,9 +5,19 @@ export default {
 </script>
 
 <template>
-  <nav class="navbar navbar-expand-lg bg-light">
+  <nav
+    class="
+      navbar
+      sticky-top
+      navbar-expand-lg
+      shadow-sm
+      border-bottom border-primary
+    "
+  >
     <div class="container">
-      <a class="navbar-brand" href="#">Jean Jérome Jornat</a>
+      <a class="navbar-brand" href="#home">
+        <img src="./icons/logo.png" alt="Logo" width="56" height="56" />
+      </a>
       <button
         class="navbar-toggler"
         type="button"
@@ -19,22 +29,27 @@ export default {
       >
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <li class="nav-item mx-4">
+            <a class="nav-link link-success fw-bold text-primary" aria-current="page" href="#home"
+              >ACCUEIL</a
+            >
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Features</a>
+          <li class="nav-item mx-4">
+            <a class="nav-link link-success fw-bold text-primary" href="#services">SERVICES</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled">Disabled</a>
+          <li class="nav-item mx-4">
+            <a class="nav-link link-success fw-bold text-primary" href="#contact">CONTACT</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
 </template>
+
+<style scoped>
+.navbar{
+  background-color: white
+}
+</style>
