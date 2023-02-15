@@ -32,7 +32,6 @@ export default {
             class="text-decoration-none"
             data-bs-toggle="modal"
             data-bs-target="#mentionModal"
-            href=""
             >Mentions Légales
           </a>
         </div>
@@ -101,7 +100,6 @@ export default {
             class="text-decoration-none"
             data-bs-toggle="modal"
             data-bs-target="#cguModal"
-            href=""
             >C.G.U.</a
           >
         </div>

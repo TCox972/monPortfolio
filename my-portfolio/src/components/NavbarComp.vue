@@ -50,7 +50,6 @@ export default {
 
 <style scoped>
 .navbar{
-  background-image: url("./icons/navBg.jpg");
-  background-size: cover;
+  background-color: white
 }
 </style>
